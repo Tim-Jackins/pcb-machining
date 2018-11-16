@@ -2,7 +2,7 @@
 
 > How to machine PCBs
 
-I preformed these steps using a wifi enabled Handibot; however, it should work with any CNC.
+I preformed these steps using a wifi enabled Handibot; however, it should work with any CNC. This guide is specifically for CHS students but the fritzing and carbide copper instructions universal.
 
 ## Parts
 
