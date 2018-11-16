@@ -11,21 +11,21 @@ Name | Use | Buy
 0.9mm PCB Drill Bit | Used for drilling holes in the copper clad board for normal sized components. | [*](https://www.amazon.com/10pcs-0-9mm-Spiral-Tungsten-Carbide/dp/B00PZYCUAO)
 1.5mm PCB End Mill | Used for milling off any extra copper. | [*](https://www.amazon.com/JIUWU-Carbide-Milling-Cutter-Machine/dp/B00SMDPF4I/ref=sr_1_1?s=industrial&ie=UTF8&qid=1540234929&sr=1-1&keywords=1.5mm+Carbide+End+Milling+Cutter+PCB+Machine+10-pack)
 0.1mm PCB Engraving Bit | Used to engrave circuit paths. | [*](https://www.amazon.com/dp/B07D4F5MKD/ref=twister_B07D4FTMC4?_encoding=UTF8&psc=1)
-Copper Clad Boards | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
+6in x 4in Copper Clad Boards | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
 
 ## Fritzing
 
 Don't bother using breadboard or schematic mode in fritzing. It's much easier to jump straight into PCB mode. While making your sketch there are some very important rules to follow:
 
-- Click on the gray seethrough rectangle and check that the width and height of the rectangle is [correct](#measurements).
+- Click on the gray seethrough rectangle and check that the width and height of the rectangle are correct (101.6 and 152.4 respectively).
 - Use only extra thick (48 mil) wires. The CNC is prone to errors so it's good to have some wiggle room. To change wire thickness click on a wire and change the width to `extra thick (48 mil)`
 - Make sure your wire and pads don't overlap
-- When you're making a shield for the raspberry pi zero DO NOT USE THE RASPBERRY PI ZERO FRIZTING PART! The pin headers are smaller than the actual pins on the Raspberry Pi Zero. Use the Raspberry Pi 3 instead.
+- When you're making a shield for the raspberry pi zero **DO NOT USE THE RASPBERRY PI ZERO FRIZTING PART**! The pin headers are smaller than the actual pins on the Raspberry Pi Zero. Use the Raspberry Pi 3 instead.
 - Try to place your circuit in the center of the gray rectangle with 8-12 mm of room on each side of the circuit.
 
 Mine looks like this:
 
-![Sample PCB](./images/sample_pcb.png)
+![Sample PCB](/images/sample_pcb.png)
 
 Once you finish the PCB sketch in fritzing you need to export it For Extended Gerber.
 
@@ -245,7 +245,7 @@ If you're extremely confused please check out [these examples](/sample_NC). If y
 
 ### Milling
 
-Now it's time to actually cut out your board! Turn on the CNC, wait about 5 minutes, and then connect to it via WiFi (It's called BACNCON BOT). Go to the address http://192.168.42.1/ and wait, this step can sometimes take a long time. While your waiting you should remove the 2 front screws on the CNC and take out the routing head.
+Now it's time to actually cut out your board! Turn on the CNC, wait about 2 minutes, and then connect to it via WiFi (It's called BACNCON BOT). Go to the address http://192.168.42.1/ and wait, this step can sometimes take a long time. While your waiting you should remove the 2 front screws on the CNC and take out the routing head.
 
 ![takeOutRouter](/images/takeOutRouter.jpg)
 
