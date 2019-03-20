@@ -2,27 +2,44 @@
 
 > How to machine PCBs like a pro!
 
+<<<<<<< HEAD
 I initially preformed these steps using a wifi enabled Handibot. Since then I have acquired a [Nomad 883 Pro](https://shop.carbide3d.com/products/nomad883?variant=1257580459). The Handibot steps can be found in the [handibot branch](https://github.com/Tim-Jackins/pcb-machining/blob/handibot/README.md).
+=======
+I preformed these steps using a wifi enabled Handibot; however, it should work with any CNC. This guide is specifically for CHS students but the fritzing and carbide copper instructions universal.
+>>>>>>> f17445b7f2d1649265d976076ad90a3f04336358
 
 ## Parts
 
 Name | Use | Buy
 --- | --- | ---
-0.9mm PCB Drill Bit | Used for drilling holes in the copper clad board for normal sized components. | [*](https://www.amazon.com/10pcs-0-9mm-Spiral-Tungsten-Carbide/dp/B00PZYCUAO)
-1.5mm PCB End Mill | Used for milling off any extra copper. | [*](https://www.amazon.com/JIUWU-Carbide-Milling-Cutter-Machine/dp/B00SMDPF4I/ref=sr_1_1?s=industrial&ie=UTF8&qid=1540234929&sr=1-1&keywords=1.5mm+Carbide+End+Milling+Cutter+PCB+Machine+10-pack)
+0.9mm PCB Drill Bit | For drilling holes in the copper clad board for normal sized components. | [*](https://www.amazon.com/10pcs-0-9mm-Spiral-Tungsten-Carbide/dp/B00PZYCUAO)
+1.5mm PCB End Mill | For milling off any extra copper. | [*](https://www.amazon.com/JIUWU-Carbide-Milling-Cutter-Machine/dp/B00SMDPF4I/ref=sr_1_1?s=industrial&ie=UTF8&qid=1540234929&sr=1-1&keywords=1.5mm+Carbide+End+Milling+Cutter+PCB+Machine+10-pack)
 0.1mm PCB Engraving Bit | Used to engrave circuit paths. | [*](https://www.amazon.com/dp/B07D4F5MKD/ref=twister_B07D4FTMC4?_encoding=UTF8&psc=1)
+<<<<<<< HEAD
 Copper Clad Boards (large) | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
 Copper Clad Boards (small) | This is what we are going to carve up to make *smaller* circuit boards. | [*](https://www.sparkfun.com/products/14976)
 Double Sided tape | This will hold the pcb still after it's cut out of the copper clad board. | [*](https://www.amazon.com/One-Roll-Double-Sided-Carpet-Tape/dp/B002UV6Q0A)
+=======
+6in x 4in Copper Clad Boards | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
+>>>>>>> f17445b7f2d1649265d976076ad90a3f04336358
 
 ## Fritzing
 
 Let's start by making our sketch in Fritzing. For example, I'm going to make an incredibly simple three LED circuit with an Arduino Uno.
 
+<<<<<<< HEAD
 ![Fritzing Sketch](/img/fritzing_sketch.png)
+=======
+- Click on the gray seethrough rectangle and check that the width and height of the rectangle are correct (101.6 and 152.4 respectively).
+- Use only extra thick (48 mil) wires. The CNC is prone to errors so it's good to have some wiggle room. To change wire thickness click on a wire and change the width to `extra thick (48 mil)`
+- Make sure your wire and pads don't overlap
+- When you're making a shield for the raspberry pi zero **DO NOT USE THE RASPBERRY PI ZERO FRIZTING PART**! The pin headers are smaller than the actual pins on the Raspberry Pi Zero. Use the Raspberry Pi 3 instead.
+- Try to place your circuit in the center of the gray rectangle with 8-12 mm of room on each side of the circuit.
+>>>>>>> f17445b7f2d1649265d976076ad90a3f04336358
 
 Once you've finished your sketch, lets click on the PCB tab on the top menu in Fritzing. Your breadboard sketch will be converted into a PCB sketch with dotted "Ratsnest" lines instead of wires.
 
+<<<<<<< HEAD
 ![Fritzing Sketch PCB](/img/fritzing_sketch_pcb.png)
 
 First let's make sure we are working with the right size PCB. Click on the gray transparent rectangle and check that the width and height of the rectangle is correct. You change in the menu in the lower left corner (*hint: if you're using the copper clad boards linked above, you're rectangles dimensions should be 152.4mm x 101.6mm (for large) or 76.2mm x 50.8mm (for small)*).
@@ -56,6 +73,9 @@ Arduino "Shield"<br><br>
 Mine actually looks like this:
 
 ![Sample PCB](./img/pcb_ready.PNG)
+=======
+![Sample PCB](/images/sample_pcb.png)
+>>>>>>> f17445b7f2d1649265d976076ad90a3f04336358
 
 Once you finish the PCB sketch in fritzing you need to export it For Extended Gerber.
 
