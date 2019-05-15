@@ -11,8 +11,8 @@ Name | Use | Buy
 0.9mm PCB Drill Bit | For drilling holes in the copper clad board for normal sized components. | [*](https://www.amazon.com/10pcs-0-9mm-Spiral-Tungsten-Carbide/dp/B00PZYCUAO)
 1.5mm PCB End Mill | For milling off any extra copper. | [*](https://www.amazon.com/JIUWU-Carbide-Milling-Cutter-Machine/dp/B00SMDPF4I/ref=sr_1_1?s=industrial&ie=UTF8&qid=1540234929&sr=1-1&keywords=1.5mm+Carbide+End+Milling+Cutter+PCB+Machine+10-pack)
 0.1mm PCB Engraving Bit | Used to engrave circuit paths. | [*](https://www.amazon.com/dp/B07D4F5MKD/ref=twister_B07D4FTMC4?_encoding=UTF8&psc=1)
-Copper Clad Boards (large) | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
-Copper Clad Boards (small) | This is what we are going to carve up to make *smaller* circuit boards. | [*](https://www.sparkfun.com/products/14976)
+Copper Clad Boards (4x6) | This is what we are going to carve up to make circuit boards! | [*](https://www.sparkfun.com/products/14976)
+Copper Clad Boards (3x2) | This is what we are going to carve up to make *smaller* circuit boards. | [*](https://www.sparkfun.com/products/14976)
 Double Sided tape | This will hold the pcb still after it's cut out of the copper clad board. | [*](https://www.amazon.com/One-Roll-Double-Sided-Carpet-Tape/dp/B002UV6Q0A)
 
 ## Fritzing
